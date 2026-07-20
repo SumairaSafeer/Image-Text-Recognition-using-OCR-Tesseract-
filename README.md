@@ -15,8 +15,7 @@ runs OCR, filters results by confidence, and produces an annotated output image.
 
 | File | Name | Description |
 |---|---|---|
-| `ocr_recognition.py` | OCR Recognition Script | Path 1 full pipeline: 
-                                                   grayscale → Gaussian blur → Otsu thresholding → Tesseract OCR → 80% confidence gate → annotated output. |
+| `ocr_recognition.py` | OCR Recognition Script | Path 1 full pipeline:   grayscale → Gaussian blur → Otsu thresholding → Tesseract OCR → 80% confidence gate → annotated output. |
 | `object_detection.py` | Object Detection Script | Path 2 (optional/not used in this submission) MobileNet-SSD object detection with the same 80% confidence gate. |
 | `make_sample_image.py` | Sample Image Generator | Generates a plain test image with text, for use when no other input image is available. |
 | `sample_input.png` | Sample Input Image | Auto-generated test image used for the first test run. |
