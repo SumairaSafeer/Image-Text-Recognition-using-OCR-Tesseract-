@@ -1,4 +1,4 @@
-# Project — Image & Text Recognition (Basic)
+# Project — Image & Text Recognition Using Tesseract OCR
 
 **Status: ✅ Complete — Path 1 (OCR) implemented, tested, and passing all milestone checks.**
 
